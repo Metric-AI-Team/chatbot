@@ -5,4 +5,4 @@ then
   PORT=5005
 fi
 
-rasa run --enable-api --port $PORT
+rasa run --model models --enable-api --port $PORT
